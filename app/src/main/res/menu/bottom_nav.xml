@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="View Items"
+        android:id="@+id/item"
+        android:icon="@drawable/list"
+        android:iconTintMode="multiply"
+        />
+
+
+    <item android:title="Add Items"
+        android:id="@+id/add"
+        android:icon="@drawable/add"
+        android:iconTintMode="multiply"
+        />
+
+
+    <item android:title="Remainder"
+        android:id="@+id/questions"
+        android:icon="@drawable/remainder"
+        android:iconTintMode="multiply"
+        />
+
+</menu>
