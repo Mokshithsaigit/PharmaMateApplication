@@ -67,7 +67,7 @@ class HomePage : AppCompatActivity() {
         }
 
         remainder.setOnClickListener {
-            startActivity(Intent(this,RemainderActivity::class.java))
+//            startActivity(Intent(this,RemainderActivity::class.java))
         }
 
     }

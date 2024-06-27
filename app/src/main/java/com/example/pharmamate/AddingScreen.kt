@@ -115,10 +115,7 @@ class AddingScreen : AppCompatActivity() {
 
         val datePickerDialog = DatePickerDialog(this,
             { view, year, monthOfYear, dayOfMonth ->
-                // Handle the selected date
                 val selectedDate = String.format("%02d/%02d/%d", dayOfMonth, monthOfYear + 1, year)
-                // You can return the selected date or update your EditText with it
-                // return selectedDate  // Uncomment to return the date
                 editText.setText(selectedDate)
             },
             year, month, day)

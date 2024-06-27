@@ -39,7 +39,6 @@ class AlarmReceiver : BroadcastReceiver() {
                 Manifest.permission.POST_NOTIFICATIONS
             ) != PackageManager.PERMISSION_GRANTED
         ) {
-            // TODO: Handle missing permission
             return
         }
         notificationManagerCompat.notify(123, builder.build())
